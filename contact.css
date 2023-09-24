@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-shadow: 0px 4px 4px #00000025;
+    font-family: montserrat;
+}
+body{
+    background-color: #150e28;
+    overflow-x: clip;
+}
+.topNav{
+    padding: 2rem 4rem 1rem;
+    padding-left: clamp(1rem, 3vw, 4rem);
+    padding-right: clamp(1rem, 3vw, 4rem);
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.logotxt a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: clamp(18px, 5vw, 35px);
+    font-weight: 900;
+    font-family: Clash Display;
+    align-items: center;
+    text-decoration:  none;
+}
+.logotxt a span{
+    font-family: Clash Display;
+    font-weight: 900;
+    color: #d434fe;
+}
+.links{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right:  2rem;
+    font-size: clamp(0.4rem, 1.4vw, 0.9rem);
+    font-weight: lighter;
+    font-family: montserrat;
+}
+
+.links button{
+    margin: 0 0 0 2rem;
+}
+.cent{
+    text-align: center;
+    margin: 1em auto;
+    display: flex;
+}
+.links button a{
+    font-size: 16px;
+    margin: 0;
+}
+.linear{
+    color: white;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 12.5px 25px;
+    border: none;
+    font-family: montserrat;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+.links .contact{
+    background:  linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    color: transparent;
+    background-clip: text;
+    font-weight: 900;
+    -webkit-background-clip: text;
+}
+.headertxt{
+    font-family: Clash Display;
+    font-size: clamp(12px, 3vw, 20px);
+    color: #D434FE;
+}
+#contactform {
+    padding: 2em 2em 4em;
+    background: #FFFFFF08;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 12px;
+    max-width: 430px;
+    margin: 5% 10% 0 50%;
+} 
+main{
+    position: relative;
+}
+#contactform input, textarea {
+    border: 0.1px solid#ffffff7a;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 85%;
+    margin-top: 2em;
+    font-size: 14px;
+}
+#contactform input::placeholder, textarea::placeholder{
+    color: #FFFFFF;
+    font-size: clamp(10px, 3vw, 14px);
+}
+.closelinks{
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    width: 23px;
+    border-radius: 50%;
+    height: 23px;
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    justify-content: center;
+}
+.closelinks div{
+    background: #150e28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21.5px;
+    height: 21.5px;
+    border-radius: 50%;
+}
+#Message{
+    height: 100px;
+    resize: none;
+}
+.headtxt{
+    font-size: clamp(26px, 3vw, 32px);
+    color: #D434FE;
+    margin-bottom: 1em;
+}
+.headtxtin{
+    font: Montserrat 400;
+    font-size: clamp(12px, 3vw, 16px);
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+}
+.abs{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.sav{
+    margin-top: 2em;
+}
+.sav h2{
+    font: Montserrat 400;
+    color: #D434FE;
+    font-size: clamp(12px, 3vw, 16px);
+    margin-bottom: .5em;
+}
+.sav img{
+    height: 20px;
+    margin-right: 20px;
+}
+.hideel{
+    display: none;
+}
+@media (max-width:640px) {
+    .topNav{
+        display: none;
+    }
+    #contactform{
+        margin: 10% auto 20px;
+    }
+    .closelinks{
+        display: flex;
+    }
+    main{
+        padding: 15% 5px;
+    }
+    .hide{
+        display: none;
+    }
+    .abs{
+        position: relative;
+        left: 0;
+    }
+    .sav{margin: 0;text-align: center;}
+    .hideel{
+        display: inline-block;
+    }
+}

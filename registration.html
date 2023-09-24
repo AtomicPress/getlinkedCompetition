@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <script defer src="registration.js"></script>
+</head>
+<body>
+    <nav class="topNav containers">
+        <h1 class="logotxt"><a href="./index.html">get<span>linked</span></a></h1>
+        <div class="links">
+            <a href="#Timeline">Timeline</a>
+            <a href="#Overview">Overview</a>
+            <a href="#FAQs">FAQs</a>
+            <a href="./contact.html" class="contact">Contact</a>
+            <button class="registerbtn linear"><div class="btnoverlay"></div><a href="./registration.html">Register</a></button>
+        </div>
+    </nav>
+    <main>
+        <div class="main-grid">
+            <div class="main-grid-child ">
+                <img src="./img/register.png" class="grid-images" alt="">
+            </div>
+            <div class="main-grid-child">
+                <form action="" id="registerform">
+                    <h1 class="headertxt">Register</h1>
+                    <div class="bepartdiv"><p>Be Part of this Movement</p><div><img src="./img/bepart.png" alt=""></div></div>
+                    <h2>CREATE YOUR ACCOUNT</h2>
+                    <div class="form-group fbr">
+                        <div>
+                            <p>Team's Name</p>
+                            <input type="text" class="input" placeholder="Enter the Name of your Group" id="Name" required>
+                        </div>
+                    <div>
+                        <p>Phone</p>
+                        <input type="number" class="input" placeholder="Enter Your Phone Number" id="Phone" required>
+                    </div>
+                </div>
+                    <div class="form-group fbr">
+                        <div>
+                            <p>Email</p>
+                            <input type="email" class="input" placeholder="Enter Your Email Address" id="Email" required>
+                        </div>
+                        <div>
+                            <p>Project Topic</p>
+                        <input type="text" class="input" placeholder="What's Your Group Project Topic" id="Topic" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="categorydiv">
+                            <p>Category</p>
+                            <select name="" id="categslt" class="input" required>
+                                <option value="" disabled selected>Select your category</option>
+                            </select>
+                        </div>
+                        <div class="groupdiv">
+                            <p>Group Size</p>
+                            <select name="" id="grslt" class="input" required>
+                                <option value="" disabled selected>Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p class="adv">Please review your registration details before submitting</p>
+                    <div class="chediv"><input type="checkbox" name="" id="agree" required><label for="agree">I agreed with the event terms and conditions  and privacy policy</label></div>
+                    <button class="linear regbtn">Register Now</button>
+                </form>
+            </div>
+        </div>
+        <div class="overlay hideel">
+            <div class="modal">
+                <img src="./img/successful.png" class="sucimg" alt="">
+                <p class="congrat">Congratulations you have successfuly Registered</p>
+                <h3>Yes, it was easy and you did it! check your mail box for next step <img src="./img/wink.png" alt=""></h3>
+                <button class="linear">Back</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
