@@ -220,6 +220,14 @@ select option{
 .hideel{
     display: none;
 }
+@font-face {
+    font-family: montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Clash Display;
+    src: url(./fonts/ClashDisplay-Medium.ttf);
+}
 @media(max-width: 730px){
     .main-grid{
         grid-template-columns: 1fr;
