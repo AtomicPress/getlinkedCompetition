@@ -742,6 +742,34 @@ margin-right: 10%;
  .footer-grid-child:not(:last-of-type){
     margin-bottom: 30px;
 }
+@font-face {
+    font-family: Clash Display;
+    src: url(./fonts/ClashDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Made Tommy;
+    src: url(./fonts/MADE\ TOMMY\ Light.otf);
+}
+@font-face {
+    font-family: Typo Hoop Demo;
+    src: url(./fonts/Typo\ Hoop_Light\ Demo.otf);
+}
+@font-face {
+    font-family: Unica One;
+    src: url(./fonts/UnicaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Voces;
+    src: url(./fonts/Voces-Regular.ttf);
+}
+@font-face {
+    font-family: Volkhov;
+    src: url(./fonts/Volkhov-Regular.ttf);
+}
 /* Responsiveness */
 @media (max-width:700px){
     .links{
